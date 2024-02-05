@@ -1,0 +1,9 @@
+<h1>Items List:</h1>
+<ul>
+    {% for item in items%}
+    <li>
+        {{ item.title }}
+        {{ item.value }}
+    </li>
+    {% endfor %}
+</ul>
